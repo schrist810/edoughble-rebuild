@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  background: url('../images/background.jpg') repeat-x;
+
+}
+
 // main.scss
 
   @import "variables";
