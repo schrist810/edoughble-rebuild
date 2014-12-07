@@ -1,0 +1,33 @@
+.main-nav {
+  font-family: 'News Cycle', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.9em;
+  border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  text-align:center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    list-style-type: none;
+
+  }
+
+  li {
+    margin-right: 1em;
+    padding: 0 0.5em;
+    display: inline;
+    }
+  }
+
+  a{
+    color:#333333;
+    text-decoration: none;
+    padding: 0.5em 0;
+  }
+
+  .currentLink {
+    color: #65C9DC;
+    font-weight: 700;
+  }
