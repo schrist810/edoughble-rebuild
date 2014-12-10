@@ -1,0 +1,44 @@
+.popular-flavors {
+
+
+  h1 {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color:#666666;
+  }
+
+  h2 {
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size:1em;
+    background:white;
+  }
+
+  h2 a {
+    color: $teal;
+  }
+
+  h2 a:hover {
+    color: black;
+  }
+
+  p {
+    font-family: $font-stack;
+    color:$grey;
+  }
+
+  img {
+    width: 216px;
+    height: 138px;
+  }
+
+  img a:hover{
+    background-image: url("images/hover.png");
+    background-repeat: no-repeat;
+    width:auto;
+    height:auto;
+    color: black;
+    opacity: .5;
+  }
+}

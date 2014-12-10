@@ -16,10 +16,15 @@
   .shopping-cart {
     p {
       font-family: 'News Cycle', sans-serif;
-      color: #65C9DC;
       padding-bottom: 2em;
       float:right;
       margin-right: 3em;
+    }
+    p a{
+      color: $teal;
+    }
+    a:hover {
+      color: black;
     }
   }
 }
