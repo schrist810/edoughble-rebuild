@@ -3,9 +3,12 @@
 
   h1 {
     font-family: 'News Cycle', sans-serif;
-    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1.28em;
     font-weight: 400;
-    color:#666666;
+    color:$grey;
+    text-align:center;
   }
 
   h2 {
@@ -34,7 +37,7 @@
   }
 
   img a:hover{
-    background-image: url("images/hover.png");
+    background: url("images/hover.png");
     background-repeat: no-repeat;
     width:auto;
     height:auto;
