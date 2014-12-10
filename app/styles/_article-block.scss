@@ -1,5 +1,16 @@
 .popular-flavors {
 
+  .chocolate-chip{
+    float:left;
+  }
+
+  .birthday-bash {
+    float:left;
+  }
+
+  .oreo {
+    float: left;
+  }
 
   h1 {
     font-family: 'News Cycle', sans-serif;
@@ -54,5 +65,4 @@
 .name a {
   color:$teal;
 }
-
 }
