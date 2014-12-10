@@ -1,22 +1,23 @@
 .body {
 
-  margin: 2em auto;
 
-  padding: 2em;
+  border-bottom: 1px solid #D2D2D2;
 
   img {
-    padding: 10px;
-    width:80%;
+    padding-bottom: 3em;
+    width:100%;
+    border-bottom: 1px solid #D2D2D2;
   }
 
   p {
     font-size: 1.25em;
     font-family: 'Neuton' serif;
-    color:#666666;
+    color:$grey;
     line-height: 1.5em;
-    margin: 2em 10em 2em 10em;
+    margin: 2em 7em 2em 7em;
     padding: 5px;
-    border-top: 1px solid #D2D2D2;
+    text-align: center;
+
   }
 
   a{
