@@ -26,22 +26,33 @@
     color: black;
   }
 
-  p {
-    font-family: $font-stack;
-    color:$grey;
-  }
-
   img {
     width: 216px;
     height: 138px;
   }
 
-  img a:hover{
-    background: url("images/hover.png");
-    background-repeat: no-repeat;
-    width:auto;
-    height:auto;
-    color: black;
+  img:hover{
+    background-image: url("images/hover.png");
     opacity: .5;
   }
+
+.price {
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 400;
+  font-size:1em;
+  color: $grey;
+  letter-spacing:.08em;
+}
+
+.name {
+  font-family: $font-stack;
+  color:$teal;
+  font-size: 1.1em;
+  font-weight:200;
+}
+
+.name a {
+  color:$teal;
+}
+
 }
