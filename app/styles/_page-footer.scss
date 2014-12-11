@@ -1,18 +1,69 @@
 .page-footer {
   clear:both;
   font-family: 'News Cycle', sans-serif;
-  font-size:.79em;
+  font-size:.68em;
   font-weight:200;
   text-transform:uppercase;
   letter-spacing:.1em;
+  line-height: 3em;
   color:$grey;
+  margin:2em;
+  padding-bottom: .5em;
+
+}
+.copyrightcontact {
+  float:left;
+  width: 33%;
+}
+
+.social {
+  float:left;
+  width: 33%;
+}
+
+.mail {
+float:left;
+width: 33%;
+}
+
+input {
+  background-color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size:.9em;
+  letter-spacing:.1em;
+
+}
+
+
+
+
+button {
+  background-color: #EA7188;
+  color: #fff;
+  border-radius: 5px;
+  border:none;
+  width:60px;
+  height: 25px;
+  line-height:1em;
+  font-weight:200;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-size:.6em;
 }
 
 ul {
   list-style-type:none;
-  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  display:inline;
 }
 
 a{
-  display: inline;
+
 }
