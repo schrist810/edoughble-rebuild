@@ -3,30 +3,30 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.81em;
-  word-spacing: .05em;
+  word-spacing: .8em;
   letter-spacing: .2em;
   border-top: 1px solid #D2D2D2;
   border-bottom: 1px solid #D2D2D2;
   text-align:center;
   padding: 1em;
-  color: $grey;
+
 
   ul {
     list-style-type: none;
     padding: 0;
-    list-style-type: none;
 
   }
 
   li {
-    margin-right: 1em;
+    margin-right: 0em;
     padding: 0 0.5em;
     display: inline;
+    color: $grey;
     }
-  }
+  
 
   a{
-    color:#333333;
+    color:$grey;
     text-decoration: none;
     padding: 0.5em 0;
   }
