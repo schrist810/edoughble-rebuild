@@ -3,12 +3,13 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.81em;
-  word-spacing: .8em;
+  word-spacing: .05em;
   letter-spacing: .2em;
   border-top: 1px solid #D2D2D2;
   border-bottom: 1px solid #D2D2D2;
   text-align:center;
   padding: 1em;
+  color: $grey;
 
   ul {
     list-style-type: none;

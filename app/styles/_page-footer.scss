@@ -1,44 +1,42 @@
-.page-footer {
-  clear:both;
-  font-family: 'News Cycle', sans-serif;
-  font-size:.68em;
-  font-weight:200;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  line-height: 3em;
-  color:$grey;
-  margin:2em;
-  padding-bottom: .5em;
+  .page-footer {
+    clear:both;
+    font-family: 'News Cycle', sans-serif;
+    font-size:.8em;
+    font-weight:200;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    line-height: 3em;
+    color:$grey;
+    margin:2em;
+    padding-bottom: .5em;
 
-}
-.copyrightcontact {
+  }
+  .copyrightcontact {
+    float:left;
+    width: 33%;
+  }
+
+  .social {
+    float:left;
+    width: 33%;
+    line-height: .8em;
+  }
+
+  .mail {
   float:left;
   width: 33%;
-}
+  line-height: .8em;
+  }
 
-.social {
-  float:left;
-  width: 33%;
-}
+  input {
+    background-color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size:.9em;
+    letter-spacing:.1em;
 
-.mail {
-float:left;
-width: 33%;
-}
-
-input {
-  background-color: #fff;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  font-size:.9em;
-  letter-spacing:.1em;
-
-}
-.reveal .fa {
-  font-family: 'FontAwesome';
-  font-style: normal;
-}
+  }
 
 
 
@@ -65,8 +63,10 @@ ul {
 
 li {
   display:inline;
+  letter-spacing: 1.5em;
 }
 
 a{
+  color: $teal;
 
 }
