@@ -1,27 +1,25 @@
 .popular-flavors {
-  border-bottom: 1px solid #D2D2D2;
-  padding-bottom: 3em;
-  clear:both;
+  margin: 1em;
 
   .chocolate-chip{
     float:left;
-    padding: .5em;
+    padding: 1em;
     width:216px;
   }
 
   .birthday-bash {
     float:left;
-    padding: .5em;
+    padding: 1em;
   }
 
   .oreo {
     float: left;
-    padding: .5em;
+    padding: 1em;
   }
 
   .smores {
     float:left;
-    padding: .5em;
+    padding: 1em;
   }
 
   h1 {
@@ -51,15 +49,6 @@
     color: black;
   }
 
-  img {
-    width: 216px;
-    height: 138px;
-    max-width:100%;
-  }
-
-
-
-
 .price {
   font-family: 'News Cycle', sans-serif;
   font-weight: 400;
@@ -82,6 +71,7 @@
   text-decoration: none;
 }
 
+
 img {
   max-width:100%;
 }
@@ -92,6 +82,7 @@ img {
   width: 12em;
   overflow:hidden;
   text-align: center;
+
 }
 
 .buy img {
