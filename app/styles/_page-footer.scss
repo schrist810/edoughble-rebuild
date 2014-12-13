@@ -7,9 +7,9 @@
     letter-spacing:.1em;
     line-height: 3em;
     color:$grey;
-    margin:1em;
+    margin:.5em;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
     border-top: 1px solid #D2D2D2;
 
   }
@@ -22,12 +22,14 @@
     float:left;
     width: 33%;
     line-height: .8em;
+    padding-left: 2em;
   }
 
   .mail {
   float:left;
   width: 33%;
   line-height: .8em;
+  padding-left: 3em;
   }
 
   input {
