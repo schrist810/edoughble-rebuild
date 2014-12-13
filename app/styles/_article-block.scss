@@ -1,15 +1,20 @@
 .popular-flavors {
+  border-bottom: 1px solid #D2D2D2;
+  padding-bottom: 2.5em;
 
   .chocolate-chip{
     float:left;
+    padding: .5em;
   }
 
   .birthday-bash {
     float:left;
+    padding: .5em;
   }
 
   .oreo {
     float: left;
+    padding: .5em;
   }
 
   h1 {
@@ -20,6 +25,8 @@
     font-weight: 400;
     color:$grey;
     text-align:center;
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 1em;
   }
 
   h2 {
@@ -27,7 +34,6 @@
     font-weight: 400;
     font-size:1em;
     background:white;
-
   }
 
   h2 a {
@@ -48,6 +54,7 @@
     opacity: .5;
   }
 
+
 .price {
   font-family: 'News Cycle', sans-serif;
   font-weight: 400;
@@ -67,5 +74,6 @@
 
 .name a {
   color:$teal;
+  text-decoration: none;
 }
 }
