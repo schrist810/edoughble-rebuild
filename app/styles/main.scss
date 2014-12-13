@@ -5,6 +5,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 html {
   background: url('../images/background.jpg') repeat;
 }
@@ -12,6 +14,7 @@ html {
 body {
   max-width: 1000px;
   background-color: white;
+  box-shadow: 0 0 2em black;
   margin: auto;
   padding: 2em;
 }
