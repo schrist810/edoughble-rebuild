@@ -1,6 +1,7 @@
 .popular-flavors {
   border-bottom: 1px solid #D2D2D2;
-  padding-bottom: 2.5em;
+  padding-bottom: 3em;
+  clear:both;
 
   .chocolate-chip{
     float:left;
@@ -15,6 +16,11 @@
 
   .oreo {
     float: left;
+    padding: .5em;
+  }
+
+  .smores {
+    float:left;
     padding: .5em;
   }
 
@@ -51,10 +57,7 @@
     max-width:100%;
   }
 
-  img:hover{
-    background-image: url("images/hover.png");
-    opacity: .5;
-  }
+
 
 
 .price {
