@@ -76,4 +76,59 @@
   color:$teal;
   text-decoration: none;
 }
+
+
+img{
+  max-width:100%;
+
+}
+
+.buy {
+  position: relative;
+  height: 9em;
+  width: 16em;
+  overflow:hidden;
+  text-align: center;
+}
+
+.buy img {
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -10;
+}
+
+.buy ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  height: 100%;
+  background-color: hsla(0,0%,0%,0.5);
+  opacity: 0;
+}
+
+.buy ol:hover {
+  opacity:1;
+}
+
+.buy li {
+  border-top: 1px solid #fff;
+  height: 50%;
+  margin: 0;
+}
+
+.buy li:first-child {
+  border:0;
+}
+
+.buy a {
+  color: #fff;
+  text-decoration: none;
+  color: hsla(0,0%,100%,0.6);
+}
+
+.buy a:hover {
+  color:#fff;
+}
+
 }

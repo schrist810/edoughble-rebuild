@@ -18,13 +18,14 @@
       font-family: 'News Cycle', sans-serif;
       font-size:.85em;
       font-weight:200;
-      letter-spacing:.08em;
+      letter-spacing:.09em;
       padding-bottom: .5em;
       float:right;
       margin-right: 4em;
     }
     p a{
       color: $teal;
+      text-decoration: none;
     }
     a:hover {
       color: black;
